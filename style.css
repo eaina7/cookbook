@@ -1,3 +1,7 @@
+
+
+
+
 header{
   /* background-image: url("./pictures/table-food-top-view-260nw-467823860.jpg");
   width:100%; */
@@ -30,7 +34,7 @@ h1{
   text-align: center;
 }
 
-footer{
+.myfooter{
   display: flex;
   justify-content: center;
   padding-top: 200px;
