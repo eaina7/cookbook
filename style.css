@@ -1,44 +1,46 @@
-
-*{
+* {
   font-family: "Quicksand";
 }
 
-
-h1{
+h1 {
   width: 620px;
   text-align: center;
   background-color: #f5f3f4;
-
 }
 
-h2{
+h2 {
   width: 620px;
   text-align: center;
 }
 
-
-.header{
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-.myfooter{
+.myfooter {
   display: flex;
   justify-content: center;
   padding-top: 20px;
 }
 
-.main{
+.main {
+  width: 70%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 400px;
+  flex-wrap: wrap;
 }
 
-
-.overlay{
+.overlay {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,21 +52,20 @@ h2{
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+  transition: 0.5s ease;
+  background-color: #008cba;
 }
-
 
 .card:hover .overlay {
   opacity: 1;
 }
 
-.overlay a{
+.overlay a {
   font-size: 20px;
   background-color: none;
 }
 
-.card-body{
+.card-body {
   display: flex;
   justify-content: center;
   align-items: center;
