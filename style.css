@@ -19,12 +19,22 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+<<<<<<< Updated upstream
+=======
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  margin-bottom: 5em;
+  box-shadow: 1em 0em 1em gray;
+>>>>>>> Stashed changes
 }
 
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
+<<<<<<< Updated upstream
 }
 
 .myfooter {
@@ -32,6 +42,28 @@ body {
   justify-content: center;
   padding-top: 20px;
 }
+=======
+  background-image: url(./pictures/e9d4833ac78d9c68b7264e8bca9108c6.jpg);
+}
+
+.myfooter {
+  height: 400px;
+  width: 100%;
+  background-image: url("./pictures/blueberries-hands_JCTWB2CPSX.jpg");
+}
+
+/* footer {
+  height: 200px;
+  width: 100%;
+  background-image: url(./pictures/blueberries-hands_JCTWB2CPSX.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5em;
+  opacity: 1;
+  box-shadow: 1em 0em 1em gray;
+} */
+>>>>>>> Stashed changes
 
 .main {
   width: 70%;
