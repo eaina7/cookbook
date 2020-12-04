@@ -51,6 +51,11 @@ ul {
   padding: 5em 2em;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .fondue {
   background-image: url("../pictures/fondue-au-chocolat-facile-et-rapide-f903de48.jpeg");
 }
