@@ -5,7 +5,7 @@
 }
 
 h1 {
-  width: 620px;
+  width: 800px;
   text-align: center;
   background-color: rgba(245, 243, 244, 0.5);
 }
@@ -22,36 +22,21 @@ h2 {
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 25vh;
   width: 100%;
   margin-bottom: 5em;
   box-shadow: 1em 0em 1em gray;
-  background-image: url(./pictures/table-food-top-view-260nw-467823860.jpg);
+}
+
+.header h1 {
+  font-size: 3.5rem;
 }
 
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(./pictures/hand-drawn-vector-seamless-fast-food-pattern-sketch-doodle-elements-can-be-used-wallpaper-website-background-wrapping-79399570.png);
-}
-
-.myfooter {
-  height: 400px;
-  width: 100%;
-  background-image: url("./pictures/blueberries-hands_JCTWB2CPSX.jpg");
-}
-
-footer {
-  height: 200px;
-  width: 100%;
-  background-image: url(./pictures/blueberries-hands_JCTWB2CPSX.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin-top: 5em;
-  opacity: 1;
-  box-shadow: 1em 0em 1em gray;
+  background-image: url(./pictures/e9d4833ac78d9c68b7264e8bca9108c6.jpg);
 }
 
 .main {
@@ -92,7 +77,12 @@ footer {
 }
 
 .card-body {
+  background-color: #008cba;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card-body h5 {
+  color: white;
 }
