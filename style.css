@@ -54,6 +54,24 @@ footer {
   box-shadow: 1em 0em 1em gray;
 }
 
+.myfooter {
+  height: 400px;
+  width: 100%;
+  background-image: url("./pictures/blueberries-hands_JCTWB2CPSX.jpg");
+}
+
+/* footer {
+  height: 200px;
+  width: 100%;
+  background-image: url(./pictures/blueberries-hands_JCTWB2CPSX.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5em;
+  opacity: 1;
+  box-shadow: 1em 0em 1em gray;
+} */
+
 .main {
   width: 70%;
   display: flex;
